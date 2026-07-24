@@ -34,7 +34,7 @@ validada.
 ```r
 # a partir do GitHub, assim que publicado:
 # install.packages("remotes")
-remotes::install_github("SEU_USUARIO/EcoBiomasBR")
+remotes::install_github("scasttro7/EcoBiomasBR")
 
 # em desenvolvimento local (clone do repositório):
 devtools::load_all("EcoBiomasBR")
