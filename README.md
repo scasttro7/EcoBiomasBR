@@ -1,7 +1,4 @@
-# BiomasBR
-Equações alométricas, biomassa, carbono, perturbação e sensoriamento remoto para os seis biomas brasileiros — funções bilíngues PT/EN.
-
-# BiomasBR
+# EcoBiomasBR
 
 <!-- badges: start -->
 ![status](https://img.shields.io/badge/status-desenvolvimento-yellow)
@@ -15,7 +12,7 @@ Mata Atlântica, Caatinga, Pantanal e Pampa** — com funções expostas
 **bilíngue (PT/EN)**.
 
 Diferente de pacotes de biomassa tropical genéricos (ex.: `BIOMASS`, que usa
-equações pantropicais de Chave et al.), o BiomasBR organiza equações
+equações pantropicais de Chave et al.), o EcoBiomasBR organiza equações
 **calibradas por bioma brasileiro** por trás de um dispatcher central único:
 
 ```r
@@ -37,16 +34,16 @@ validada.
 ```r
 # a partir do GitHub, assim que publicado:
 # install.packages("remotes")
-remotes::install_github("SEU_USUARIO/BiomasBR")
+remotes::install_github("SEU_USUARIO/EcoBiomasBR")
 
 # em desenvolvimento local (clone do repositório):
-devtools::load_all("BiomasBR")
+devtools::load_all("EcoBiomasBR")
 ```
 
 ## Uso básico
 
 ```r
-library(BiomasBR)
+library(EcoBiomasBR)
 
 # Listar equações disponíveis para um bioma (com referência bibliográfica)
 listar_equacoes("caatinga")

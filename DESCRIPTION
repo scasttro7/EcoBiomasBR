@@ -1,0 +1,23 @@
+Package: EcoBiomasBR
+Type: Package
+Title: Allometric Equations, Biomass, Carbon, Disturbance and Remote Sensing Tools for Brazilian Biomes
+Version: 0.1.0
+Authors@R: person("Sabrina", "Castro da Silva", email = "sabrina.castro@example.com", role = c("aut", "cre"))
+Description: Provides allometric biomass equations, carbon conversion, anthropic
+    disturbance quantification, climate variable integration, and remote sensing
+    (LiDAR/GEDI, SAR/PALSAR) tools specific to each of the six Brazilian biomes
+    (Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa). Functions are
+    exposed bilingually in Portuguese and English. Where applicable, allometric
+    correction routines for the Amazon biome are imported from the 'ForestR'
+    package to avoid duplicating methodology.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 4.1.0)
+Imports:
+    ForestR
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
